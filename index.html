@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Product | Freecodecamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/grapes-vector.jpg" alt="">
+                </div>
+                <ul>
+                    <li><a href="#header" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#video-section" class="nav-link">Video</a></li>
+                    <li><a href="#order" class="nav-link">Order</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="header-bg">
+            <div class="header-text">
+                <h1>Lavinia Wines</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, fugit.</p>
+            </div>
+        </div>
+        <div>
+            <img src="img/redWine.png" alt="" id="header-img">
+        </div>
+    </header>
+    
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+                <div class="section-cards">
+                    <div class="card">
+                        <i class="fas fa-wine-glass fa-2x"></i>
+                        <h3>Premium Quality</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloremque facere, laborum repellat accusamus consequatur placeat. Repudiandae libero at fugiat!</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-leaf fa-2x"></i>
+                        <h3>Environment Protection</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloremque facere, laborum repellat accusamus consequatur placeat. Repudiandae libero at fugiat!</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h3>Social Equity</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloremque facere, laborum repellat accusamus consequatur placeat. Repudiandae libero at fugiat!</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video-section" class="bg-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2>Video</h2>
+            </div>
+            <div class="video-body" >
+                <iframe id="video" max-width="800" height="485" src="https://www.youtube.com/embed/PKpqCM5X0AA?list=PLMr9aynpnsfLjhXhFHqZ80OwnKgVMw_WZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order -->
+    <section id="order">
+        <div class="container">
+            <div class="section-title">
+                <h2>Order Now</h2>
+            </div>
+                <div class="section-cards">
+                    <div class="card">
+                        <h3>£35</h3>
+                        <h4>5 Bottles</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, sint.</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                    <div class="card">
+                        <h3>£75</h3>
+                        <h4>12 Bottles</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, sint.</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                    <div class="card">
+                        <h3>£130</h3>
+                        <h4>20 Bottles</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, sint.</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+                <div class="form-container">
+                    <form action="https://www.freecodecamp.com/email-submit" id="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                        <input type="submit" id="submit" name="submit" value="Submit">
+                    </form>
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark">
+        <p>Copyright &copy; Sarah-May Archibald, 2021</p>
+    </footer>
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+</html>
